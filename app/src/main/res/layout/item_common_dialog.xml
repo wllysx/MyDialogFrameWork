@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:visibility="gone"
+        android:id="@+id/m_title"
+        android:gravity="center"
+        android:text="下线通知"
+        android:textSize="24sp"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+    <TextView
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone"
+        android:id="@+id/m_message"
+        android:text="状态异常请重新登录"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:background="@drawable/easy_dialog_selector_button4"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:visibility="gone"
+            android:id="@+id/m_left"
+            android:gravity="center"
+            android:paddingBottom="8dp"
+            android:text="1"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"></TextView>
+        <TextView
+            android:background="@drawable/easy_dialog_selector_button4"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:visibility="gone"
+            android:id="@+id/m_right"
+            android:gravity="center"
+            android:paddingBottom="8dp"
+            android:text="2"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"></TextView>
+
+
+    </LinearLayout>
+
+</LinearLayout>

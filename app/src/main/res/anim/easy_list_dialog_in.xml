@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--dialog弹入时动画，从右侧弹出对话框-->
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="250"
+    android:fromYDelta="100%"
+    android:toYDelta="0"
+    />
